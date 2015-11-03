@@ -1,0 +1,29 @@
+{
+  "name": "jpk",
+  "version": "0.0.0",
+  "description": "An npm client",
+  "main": "lib/index.js",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "eslint lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkrems/jpk.git"
+  },
+  "keywords": [
+    "npm",
+    "client",
+    "jpk"
+  ],
+  "author": "Jan Krems <jan.krems@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/jkrems/jpk/issues"
+  },
+  "homepage": "https://github.com/jkrems/jpk#readme",
+  "devDependencies": {
+    "eslint": "^1.8.0",
+    "eslint-config-airbnb": "~0.1.0"
+  }
+}
